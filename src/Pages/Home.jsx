@@ -54,10 +54,7 @@ const Home = () => {
                 <Sparkles className="w-4 h-4 text-purple-600" />
                 Join the Beta Waitlist
               </Link>
-              <Link to="/graph" className="inline-flex items-center gap-2 px-8 py-4 bg-transparent border border-slate-700 text-slate-300 rounded-xl text-sm font-medium hover:bg-slate-800 hover:text-white hover:-translate-y-0.5 transition-all">
-                Explore the Graph
-                <ArrowRight className="w-4 h-4" />
-              </Link>
+              
             </motion.div>
           </motion.div>
         </div>

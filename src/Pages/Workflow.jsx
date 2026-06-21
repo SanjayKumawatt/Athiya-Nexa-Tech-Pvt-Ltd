@@ -55,13 +55,7 @@ const Workflows = () => {
       variants={staggerContainer}
       className="space-y-8"
     >
-      <motion.div
-        variants={fadeUp}
-        className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 backdrop-blur-md border border-white/10 text-slate-300 text-xs font-bold uppercase tracking-widest"
-      >
-        <BrainCircuit className="w-3 h-3 text-purple-400" />
-        Practical Applications
-      </motion.div>
+      
 
       <motion.h1
         variants={fadeUp}

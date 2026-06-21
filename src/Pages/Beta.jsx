@@ -61,13 +61,7 @@ const Beta = () => {
         <div className="absolute top-[-10%] left-1/2 -translate-x-1/2 w-full max-w-5xl h-[500px] bg-purple-600/10 blur-[150px] rounded-full pointer-events-none z-0"></div>
         
         <div className="relative z-10 max-w-4xl mx-auto px-4 text-center space-y-8">
-          <motion.div 
-            initial={{ opacity: 0, y: 20 }} 
-            animate={{ opacity: 1, y: 0 }} 
-            className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-400 text-xs font-bold uppercase tracking-widest"
-          >
-            <UserPlus className="w-3 h-3" /> Early Access Program
-          </motion.div>
+          
           <motion.h1 
             initial={{ opacity: 0, y: 20 }} 
             animate={{ opacity: 1, y: 0 }}

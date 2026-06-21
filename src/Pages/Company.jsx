@@ -36,9 +36,7 @@ const Company = () => {
 
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-10">
           <motion.div initial="hidden" animate="visible" variants={staggerContainer} className="space-y-8">
-            <motion.div variants={fadeUp} className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-slate-300 text-xs font-bold uppercase tracking-widest">
-              <LightbulbOff className="w-3 h-3 text-purple-400" /> The Origin Story
-            </motion.div>
+            
             <motion.h1 variants={fadeUp} className="text-5xl md:text-7xl font-bold text-white tracking-tight leading-[1.1]">
               We got tired of losing <br className="hidden sm:block"/> our best ideas.
             </motion.h1>
