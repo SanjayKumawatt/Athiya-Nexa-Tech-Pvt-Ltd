@@ -3,6 +3,8 @@ import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Sparkles } from 'lucide-react';
 
+import logo from "../assets/logo.png"
+
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -39,12 +41,10 @@ const Header = () => {
           {/* Logo - Strictly Matte & Non-Shiny */}
           <div className="flex-shrink-0 flex items-center gap-2">
             <Link to="/" className="flex items-center gap-2 group">
-              <div className="w-8 h-8 bg-[#111116] rounded flex items-center justify-center border border-white/10">
-                <div className="w-3 h-3 bg-slate-300 rounded-sm"></div>
-              </div>
-              <span className="text-slate-200 font-medium text-lg tracking-wide drop-shadow-none">
+              <img src={logo} className= 'ml-4 h-8' alt="" />
+              {/* <span className="text-slate-200 font-medium text-lg tracking-wide drop-shadow-none">
                 Athiya Nexa
-              </span>
+              </span> */}
             </Link>
           </div>
 

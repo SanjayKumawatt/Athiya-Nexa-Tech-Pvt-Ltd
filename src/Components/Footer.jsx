@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import logo from "../assets/logo.png"
+
 const Footer = () => {
   return (
     <footer className="bg-[#030305] border-t border-white/10 py-20">
@@ -11,9 +13,7 @@ const Footer = () => {
           {/* Logo & Identity */}
           <div className="space-y-4">
             <Link to="/" className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-[#111116] rounded flex items-center justify-center border border-white/10">
-                <div className="w-3 h-3 bg-slate-300 rounded-sm"></div>
-              </div>
+              <img src={logo} className='h-8' alt="" />
               <span className="text-slate-100 font-semibold text-lg tracking-wide">Athiya Nexa</span>
             </Link>
             <p className="text-slate-400 text-sm font-normal leading-relaxed max-w-xs">
